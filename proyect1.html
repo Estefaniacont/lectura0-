@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first proyect</title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <style>
+      button {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        background-color: green;
+      }
+      button:hover {
+        background-color: orange;
+      }
+    </style>
+    <style>
+      a::before {
+        content: "\21d2 Click here: ";
+        font-weight: bold;
+      }
+    </style>
+<style>
+  p::selection {
+    color: red;
+    background-color: yellow;
+  }
+</style>
+<style>
+  @media print {
+    .screen-only {
+      display: none;
+    }
+  }
+</style>
+<style>
+  @media (min-width:500px) {
+    body {
+    background-color: white;
+  }
+  }
+  @media (max-width:499px) {
+    body {
+      background-color: pink;
+    }
+  }
+</style>
+<style>
+  @media (min-width:500px){
+    h3::before{
+      content: "Welcome to my web page"
+    }
+  }
+  @media (max-width:499px) {
+    h3::before{
+      content: "Welcome"
+    }
+  }
+
+</style>
+    <style>
+      input [type=text] {
+        background-color: red;
+      }
+      input [type=number] {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+This is my first proyect
+<h1>Big headline</h1>
+<h2>Smaller headline</h2>
+
+<h2>Table of contents</h2>
+<ul>
+  <li><a href="#section1">Section 1</a></li>
+  <li><a href="#section2">Section 2</a></li>
+  <li><a href="#section3">Section 3</a></li>
+</ul>
+
+<h2 id="#section1">Section 1</h2>
+<p>Parrafo de la seccion 1</p>
+<h2 id="#section2">Section 2</h2>
+<p>Parrafo de la seccion 2</p>
+<h2 id="#section3">Section 3</h2>
+<p>Parrafo seccion 3</p>
+
+
+<form>
+  <div>
+    <input type="text" name="name" placeholder="Name">
+    <input type="password" name="password" value="Password" placeholder="Password">
+  </div>
+  <div>
+    Favourite Color?
+    <input type="radio" name="color" value="red"> Red
+    <input type="radio" name="color" value="green"> Green
+    <input type="radio" name="color" value="blue"> Blue
+    <input type="radio" name="color" value="other"> Other
+  </div>
+  <div>
+    <input name="country" list="countries" placeholder="Country">
+    <datalist id="countries">
+      <option value="Mexico">
+        <option value="EUU">
+          <option value="Canada">
+      </option>
+    </datalist>
+  </div>
+</form>
+<ol>
+  <li>list item one</li>
+  <li>list item two</li>
+  <ul>
+    <li>sublist item one</li>
+    <li>sublist item two</li>
+  </ul>
+  <li>list item three</li>
+</ol>
+<form>
+  <input type="text" name="name" placeholder="First Name">
+  <input type="text" name="name" placeholder="Last Name">
+  <input type="number" name="name" placeholder="Age">
+</form>
+<button>Click me</button>
+<ul>
+  <li><a href="#">One link</a></li>
+  <li><a href="#">Another link</a></li>
+  <li><a href="#">Third link</a></li>
+</ul>
+<p>
+  Lorem imposium dolor sit amet
+</p>
+<p>This is a paragraph</p>
+<p>This is another paragraph</p>
+<p class="screen-only">This paragraph won´t appear when you print this page.</p>
+<h1>Welcome to my proyect one</h1>
+<h3></h3>
+
+<a href="index.html">Back home</a>
+  </body>
+</html>
